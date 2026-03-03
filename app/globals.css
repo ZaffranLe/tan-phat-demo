@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --brand-blue: 206 83% 15%; /* #062943 */
+    --primary: var(--brand-blue);
+    --primary-foreground: 0 0% 100%;
+  }
+}
+
+@layer base {
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+body,
+html {
+  scroll-behavior: smooth;
+}
+
+@keyframes slideInFromLeft {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInFromLeft {
+  from {
+    transform: translateX(-25%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInFromRight {
+  from {
+    transform: translateX(25%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInFromTop {
+  from {
+    transform: translateY(-25%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInFromBottom {
+  from {
+    transform: translateY(25%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.fade-in-left {
+  animation-name: fadeInFromLeft;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+.fade-in-right {
+  animation-name: fadeInFromRight;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+.fade-in-top {
+  animation-name: fadeInFromTop;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+.fade-in-bottom {
+  animation-name: fadeInFromBottom;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+.slide-in-left {
+  animation-name: slideInFromLeft;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
