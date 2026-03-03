@@ -8,8 +8,8 @@ import { config } from '@fortawesome/fontawesome-svg-core';
 config.autoAddCss = false; /* eslint-disable import/first */
 
 export const metadata: Metadata = {
-  title: 'Ta Thi Group',
-  description: 'tathi.vn',
+  title: 'Tân Phát Group',
+  description: 'tanphat.vn',
 };
 
 export default function RootLayout({

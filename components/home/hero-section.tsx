@@ -18,7 +18,7 @@ export default function HeroSection() {
       >
         <img
           src="logo/logo-full.png"
-          alt="Ta Thi Logo"
+          alt="Tân Phát Logo"
           className="w-1/2 -translate-y-1/2 lg:m-0 xl:w-full"
         />
       </div>

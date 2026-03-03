@@ -51,7 +51,7 @@ export default function OurServicesSection() {
         Dịch vụ của chúng tôi
       </h2>
       <p className="hidden text-base md:block xl:w-1/2 xl:text-lg 2xl:text-2xl">
-        <b>Tathi</b> cung cấp giải pháp thiết bị công nghiệp toàn diện, chuyên sâu về Pallet nhựa, xe nâng và các sản phẩm hỗ trợ kho bãi, giúp doanh nghiệp tối ưu quy trình vận hành.
+        <b>Tân Phát</b> cung cấp giải pháp thiết bị công nghiệp toàn diện, chuyên sâu về Pallet nhựa, xe nâng và các sản phẩm hỗ trợ kho bãi, giúp doanh nghiệp tối ưu quy trình vận hành.
       </p>
       <div className="grid grid-cols-3 gap-x-6">
         {services.map((service, index) => (

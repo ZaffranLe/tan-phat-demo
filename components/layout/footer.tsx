@@ -9,7 +9,7 @@ export default function Footer() {
           <Link href="/">
             <Image
               src="logo/logo-vertical.png"
-              alt="Ta Thi Logo Vertical"
+              alt="Tân Phát Logo Vertical"
               width={187}
               height={108}
               className="mx-auto"
@@ -135,7 +135,7 @@ export default function Footer() {
       </div>
       <div className="p-8">
         <p className="text-center text-sm">
-          © {new Date().getFullYear()} Ta Thi. All rights reserved.
+          © {new Date().getFullYear()} Tân Phát. All rights reserved.
         </p>
       </div>
     </footer>

@@ -18,7 +18,7 @@ export default function StatisticSection() {
         Chúng tôi cam kết chất lượng và sự tận tâm hàng đầu.
       </h2>
       <p className="text-xs md:text-base xl:text-lg 2xl:text-2xl">
-        <b>Tathi</b> tự hào mang đến các sản phẩm Pallet và thiết bị nâng hạ cho hàng nghìn doanh nghiệp trên khắp cả nước. Chúng tôi luôn nỗ lực không ngừng để cung cấp những sản phẩm chất lượng nhất với giá thành tối ưu, giúp khách hàng giải quyết bài toán vận hành kho bãi hiệu quả.
+        <b>Tân Phát</b> tự hào mang đến các sản phẩm Pallet và thiết bị nâng hạ cho hàng nghìn doanh nghiệp trên khắp cả nước. Chúng tôi luôn nỗ lực không ngừng để cung cấp những sản phẩm chất lượng nhất với giá thành tối ưu, giúp khách hàng giải quyết bài toán vận hành kho bãi hiệu quả.
       </p>
       <div className="grid grid-cols-2 gap-y-4 lg:grid-cols-4 lg:p-2 lg:shadow-lg">
         <div className="flex items-center gap-x-5">
