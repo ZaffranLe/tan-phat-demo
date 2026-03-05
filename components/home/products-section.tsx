@@ -6,6 +6,7 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { motion, AnimatePresence } from 'framer-motion';
+import Link from 'next/link';
 
 const categories = [
   'Tất cả',
@@ -102,11 +103,10 @@ export default function ProductsSection() {
               <Button
                 variant={activeCategory === category ? 'default' : 'outline'}
                 onClick={() => setActiveCategory(category)}
-                className={`rounded-full px-8 py-6 text-base font-semibold transition-all duration-300 shadow-md hover:shadow-lg ${
-                  activeCategory === category 
-                  ? 'bg-[#062943] hover:bg-[#D11A21] border-none text-white' 
+                className={`rounded-full px-8 py-6 text-base font-semibold transition-all duration-300 shadow-md hover:shadow-lg ${activeCategory === category
+                  ? 'bg-[#062943] hover:bg-[#D11A21] border-none text-white'
                   : 'hover:border-[#062943] hover:text-[#062943]'
-                }`}
+                  }`}
               >
                 {category}
               </Button>
@@ -115,7 +115,7 @@ export default function ProductsSection() {
         </div>
 
         {/* Products Grid */}
-        <motion.div 
+        <motion.div
           layout
           className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10"
         >
@@ -155,19 +155,21 @@ export default function ProductsSection() {
                       {product.name}
                     </h3>
                     <div className="mt-auto pt-6 flex items-center justify-between border-t border-gray-100 dark:border-zinc-800">
-                      <div>
+                      <Link href="https://zalo.me/0829093384" target="_blank" className="hover:opacity-80 transition-opacity">
                         <p className="text-sm text-gray-500 mb-1">Giá bán</p>
                         <span className="text-[#062943] font-extrabold text-2xl tracking-tight">{product.price}</span>
-                      </div>
-                      <Button 
-                        variant="link" 
-                        className="text-[#00204D] dark:text-gray-300 font-bold p-0 group-hover:text-[#062943] flex items-center gap-2"
-                      >
-                        Chi tiết
-                        <span className="w-8 h-8 rounded-full bg-gray-100 dark:bg-zinc-800 flex items-center justify-center group-hover:bg-[#062943] group-hover:text-white transition-all duration-300">
-                          →
-                        </span>
-                      </Button>
+                      </Link>
+                      <Link href="https://zalo.me/0829093384" target="_blank">
+                        <Button
+                          variant="link"
+                          className="text-[#00204D] dark:text-gray-300 font-bold p-0 group-hover:text-[#062943] flex items-center gap-2"
+                        >
+                          Liên hệ
+                          <span className="w-8 h-8 rounded-full bg-gray-100 dark:bg-zinc-800 flex items-center justify-center group-hover:bg-[#062943] group-hover:text-white transition-all duration-300">
+                            →
+                          </span>
+                        </Button>
+                      </Link>
                     </div>
                   </CardContent>
                 </Card>

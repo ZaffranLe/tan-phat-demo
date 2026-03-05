@@ -23,7 +23,7 @@ export default function AboutSection() {
         Chúng tôi cung cấp các giải pháp tối ưu về Pallet và thiết bị nâng hạ, giúp doanh nghiệp vận hành kho bãi hiệu quả và tiết kiệm chi phí.
       </p>
       <div className="flex flex-col gap-x-10 gap-y-3 md:flex-row xl:gap-x-20">
-        <img src="cover/about.png" alt="Tân Phát Logo" className="h-full w-full md:w-1/2 xl:w-full" />
+        <img src="cover/about.png" alt="Tân Phát Logo" className="h-full w-full rounded-xl shadow-xl md:w-1/2 xl:w-full" />
         <div className="flex flex-col gap-y-3 xl:pb-16">
           <p className="text-xs md:text-base xl:text-lg 2xl:text-2xl">
             Với nhiều năm kinh nghiệm trong ngành nhựa và thiết bị công nghiệp, chúng tôi tự hào là đơn vị uy tín chuyên cung cấp Pallet nhựa cũ & mới, xe nâng tay và các sản phẩm nhựa công nghiệp chất lượng cao.

@@ -14,21 +14,21 @@ interface IService {
 
 const services: IService[] = [
   {
-    image: 'icon/screens.svg',
+    image: 'cover/pallet-nhua.jfif',
     imageAlt: 'Pallet nhựa',
     title: 'Cung cấp Pallet nhựa',
     description:
       'Chuyên cung cấp Pallet nhựa cũ và mới đa dạng kích thước, chịu tải cao, phù hợp với mọi nhu cầu lưu kho và vận chuyển.',
   },
   {
-    image: 'icon/digital.svg',
+    image: 'cover/nang-ha.jpg',
     imageAlt: 'Xe nâng tay',
     title: 'Thiết bị nâng hạ',
     description:
       'Cung cấp và bảo trì các loại xe nâng tay thấp, xe nâng tay cao chất lượng từ các thương hiệu uy tín, giá cả cạnh tranh.',
   },
   {
-    image: 'icon/united.svg',
+    image: 'cover/nhua-cong-nghiep.jfif',
     imageAlt: 'Nhựa công nghiệp',
     title: 'Nhựa công nghiệp',
     description:
